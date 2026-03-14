@@ -1,8 +1,13 @@
+import Navbar from './components/Navbar'
+
 function App() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
-      <main className="flex flex-col gap-20 lg:gap-24">
-        {/* Components will go here */}
+      <Navbar />
+      <main className="flex-grow">
+        <div className="flex items-center justify-center min-h-[60vh] text-gray-400">
+          <p className="text-lg">Navbar is ready. Hero section coming next.</p>
+        </div>
       </main>
     </div>
   )
