@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { HiArrowRight } from 'react-icons/hi'
+import heroImg from '../assets/hero.png'
 
 const Hero = () => {
   return (
@@ -81,7 +82,7 @@ const Hero = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-primary to-primary-dark rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative bg-white rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://res.cloudinary.com/dqezedzto/image/upload/v1773478286/unnamed_v0bovg.jpg"
+                  src={heroImg}
                   alt="Shopping with Kart Wala"
                   className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
                 />
